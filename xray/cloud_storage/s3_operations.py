@@ -1,6 +1,6 @@
 import os
 import sys
-import xray.exception import XRayException
+import Xray.exception import XRayException
 
 
 class S3Operation:
