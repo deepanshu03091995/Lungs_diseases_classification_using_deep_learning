@@ -1,11 +1,11 @@
 import sys
-from xray.components.data_ingestion import DataIngestion
+from Xray.components.data_ingestion import DataIngestion
 # from xray.components.data_transformation import DataTransformation
 # from xray.components.model_training import ModelTrainer
 # from xray.components.model_evaluation import ModelEvaluation
-from xray.exception import XRayException
-from xray.logger import logging
-from xray.entity.artifact_entity import (
+from Xray.exception import XRayException
+from Xray.logger import logging
+from Xray.entity.artifact_entity import (
     DataIngestionArtifact,
     # DataTransformationArtifact,
     # ModelTrainerArtifact,

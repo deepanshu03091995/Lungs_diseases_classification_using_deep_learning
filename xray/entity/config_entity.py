@@ -3,7 +3,7 @@ from dataclasses import dataclass
 
 from torch import device
 
-from xray.constant.training_pipeline import *
+from Xray.constant.training_pipeline import *
 
 
 @dataclass
